@@ -92,6 +92,11 @@ button:active {
   padding: 1rem;
   margin: 1rem;
   background: #fff;
+  cursor: grab;
+}
+
+.projects li:active {
+  cursor: grabbing;
 }
 
 .projects li h2 {
